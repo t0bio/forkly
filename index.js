@@ -5,6 +5,7 @@ const axios = require('axios'); // axios for api calls
 const app = express();
 
 app.set('view engine', 'ejs'); // set view engine to ejs
+app.set('views', path.join(__dirname, 'views')); // set views directory
 
 app.get('/', (req, res) => {
     res.render('index');
