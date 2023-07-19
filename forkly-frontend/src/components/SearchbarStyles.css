@@ -1,0 +1,11 @@
+.searchbar {
+    margin: auto;
+}
+
+input[type = text] {
+    background-color: white;
+    background-image: url('./images/SearchIcon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+     padding-left: 40px;
+}

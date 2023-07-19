@@ -1,11 +1,18 @@
 import './NavbarStyles.css'
+import logo from './images/ForklyLogo.png'
 
 function Navbar() {
 	return (
 		<nav className = "navbar">
-			<a href = "/Home" className = "site-title">AngoeMango</a>
-			<a href = "/Contact" title = "Get in touch!">Contact</a>
-			<a href = "/About" title = "Personal Life and Biography">Angeleeca</a>
+			<div class = "topnav-left">
+				<a href = "/Home" className = "site-title">
+					<img src = {logo} alt = "Forkly Logo" width = "200"></img>
+				</a>
+			</div>
+			<div class = "topnav-right">
+				<a href = "/About" title = "Meet the team!">About</a>
+				<a href = "/Contact" title = "Get in touch!">Contact</a>
+			</div>
 		</nav>
 	)
 }
