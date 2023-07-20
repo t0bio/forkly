@@ -5,7 +5,45 @@
 input[type = text] {
     background-color: white;
     background-image: url('./images/SearchIcon.png');
-    background-position: 10px 10px;
+    background-position: 5px 5px;
     background-repeat: no-repeat;
-     padding-left: 40px;
+    width: 300px;
+    padding: 12px 20px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    color: #2E2A24;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 12px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type = submit] {
+    background-color: #FA6031;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    vertical-align: middle;
+    border: 2px solid #FA6031;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+
+input[type = submit]:hover {
+    background-color: #FFC2B0;
+    color: #FA6031;
 }

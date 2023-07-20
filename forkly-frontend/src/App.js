@@ -6,7 +6,12 @@ import Searchbar from './components/Searchbar';
 
 function App() {
   	return (
-		<Navbar />
+		<div class = "App">
+			<Navbar />
+			<div class = "center-page">
+				<Searchbar />
+			</div>
+		</div>
 	)
 }
 

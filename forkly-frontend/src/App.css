@@ -1,14 +1,22 @@
 .App {
-  text-align: center;
+	text-align: center;
+	background-color: #E0EFFE;
+}
+
+.center-page {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
 }
 
 @font-face {
-  font-family: font1;
-  src: url(./components/fonts/MilkyMania.ttf);
+	font-family: font1;
+	src: url(./components/fonts/MilkyMania.ttf);
 }
 
 @font-face {
-  font-family: font2;
-  src: url(./components/fonts/Traffolight.otf);
+	font-family: font2;
+	src: url(./components/fonts/Traffolight.otf);
 }
 
